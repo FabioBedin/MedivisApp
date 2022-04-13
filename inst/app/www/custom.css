@@ -1,0 +1,32 @@
+
+#tocMenu li.active a {
+    color: #89bd2f !important;
+    background-color: #002934;
+}
+
+#tocMenu li a {
+    text-decoration: none;
+    color: #002934;
+    background-color: rgb(137 189 47 / 50%);
+}
+
+#tocMenu {
+  font-weight: bold;
+}
+
+.fp-controlArrow.fp-next {
+    right: 15px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent #002934 !important;
+}
+
+.fp-controlArrow.fp-prev {
+    left: 15px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent #002934 transparent transparent !important;
+}
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+    background: #89bd2f !important;
+}
